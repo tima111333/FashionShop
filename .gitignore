@@ -4,3 +4,6 @@ node_modules/.cache/babel-loader/03bac206b3d152cf33b671717b69a71b6bac1e31fbb1ede
 /node_modules/.cache/default-development
 /node_modules/.cache/default-development
 /node_modules
+*.pack
+/node_modules
+/node_modules
