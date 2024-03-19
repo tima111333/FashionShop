@@ -3,9 +3,71 @@
 }
 
 .promo__content{
-    border-radius: 59px;
-    background-color: #F4F6F5;
-
     display: flex;
     column-gap: 24px;
+    padding-top: 68px;
+    padding-left: 120px;
+    border-radius: 59px;
+    background-color: #F4F6F5;
+}
+
+.promo__text{
+
+
+
+}
+
+.promo__title{
+    max-width: 480px;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 1.25;
+    margin-bottom: 40px;
+
+}
+
+.promo__desc{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: calc(48/32);
+    letter-spacing: -0.05em;
+
+}
+
+.promo__btn-wrapper{
+
+    display: flex;
+    column-gap: 34px;
+    align-items: center;
+
+}
+
+
+.promo__btn-wrapper::before{
+        content: "";
+        display: inline-block;
+        width: 190px;
+        height: 32px;
+        background-image: url('./../../img/icons/decor-yellow.svg');
+}
+
+.promo__btn{
+
+    padding: 18px 40px;
+    background: #000000;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.5;
+    letter-spacing: -0.05em;
+    color: #fff;
+
+
+}
+
+
+.highlight{
+    content: "";
+    display: block;
+    position: absolute;
 }
