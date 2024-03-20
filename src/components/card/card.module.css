@@ -1,3 +1,9 @@
 .card{
     background-color: green;
+    background-repeat: no-repeat;
+}
+
+.styles.card__img{
+
+
 }
