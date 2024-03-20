@@ -65,9 +65,34 @@
 
 }
 
-
 .highlight{
+    position: relative;
+    display: inline-block;
+}
+
+.highlight span{
+
+    position: relative;
+
+}
+
+
+
+.highlight::before{
     content: "";
     display: block;
     position: absolute;
+    top: -5px;
+    bottom: 10px;
+    left: -30px;
+    right: -100px;
+    background-color: #fff;
+    transform: rotate(-2deg);
+}
+
+
+.highlight--yellow::before{
+    right: -90px;
+    background-color: var(--yellow);
+
 }
