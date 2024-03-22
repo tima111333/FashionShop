@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      {/* <Promo /> */}
+      <Promo />
       <Brands/>
       <Arrivals/>
     </div>

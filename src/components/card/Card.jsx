@@ -2,13 +2,16 @@ import styles from './card.module.css';
 import car01Img from './../../img/categories/cat-01.jpg';
 import arrowImg from './../../img/icons/arrow.svg'
 
-const Card = () => {
+const Card = ({title,img}) => {
+
+
 
     return ( 
 
         <div className={styles.card}>
+            <a href="#!" className={styles.card__link} ></a>
             
-            <img className={styles.card__img} src={car01Img} alt="" />
+            <img className={styles.card__img} src={img} alt="" />
             
             <div className={styles.card__body}>
 
@@ -16,7 +19,7 @@ const Card = () => {
 
                  <div className={styles.card__title}>
 
-                    Hoodies & Sweetshirt
+                    {title}
                     
                     </div>
 
