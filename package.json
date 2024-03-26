@@ -1,7 +1,7 @@
 {
   "name": "start-app",
   "version": "0.1.0",
-  "homepage":"https://github.com/tima111333/FashionShop.git",
+  "homepage":"https://tima111333.github.io/FashionShop",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
